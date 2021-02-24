@@ -1,0 +1,26 @@
+{
+	"name": "TradingSystemSqlDatabaseCikTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Ticker",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CIK",
+				"type": "int",
+				"precision": 10
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SEC_ticker"
+		}
+	}
+}
