@@ -17,7 +17,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@concat(dataset().cik, 'index.json')",
+					"value": "@concat(dataset().cik, '/index.json')",
 					"type": "Expression"
 				}
 			}
