@@ -1,0 +1,10 @@
+{
+	"name": "Trading",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://TradingKeyVault.vault.azure.net/"
+		}
+	}
+}
