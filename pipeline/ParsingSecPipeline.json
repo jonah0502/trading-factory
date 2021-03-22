@@ -78,7 +78,10 @@
 									"referenceName": "SecDatasetJson",
 									"type": "DatasetReference",
 									"parameters": {
-										"cik": "66740"
+										"cik": {
+											"value": "@item().CIK",
+											"type": "Expression"
+										}
 									}
 								}
 							]
