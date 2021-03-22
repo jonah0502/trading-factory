@@ -8,7 +8,7 @@
 		"parameters": {
 			"cik": {
 				"type": "string",
-				"defaultValue": "1503948"
+				"defaultValue": "66740"
 			}
 		},
 		"annotations": [],
