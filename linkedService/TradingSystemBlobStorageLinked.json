@@ -1,0 +1,18 @@
+{
+	"name": "TradingSystemBlobStorageLinked",
+	"properties": {
+		"description": "Represents a linked service for our blob storage account",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "TradingKeyVaultLinked",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "BlobConnectionCert"
+			}
+		}
+	}
+}
